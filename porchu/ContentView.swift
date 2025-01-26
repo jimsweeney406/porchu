@@ -11,9 +11,7 @@ struct ContentView: View {
     var body: some View {
         VStack {
             Image("porchu")
-                .resizable()
-                .scaledToFill()
-                .ignoresSafeArea(.all)
+            
         }
         .padding()
     }
