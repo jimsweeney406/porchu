@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		229EA8552D45C57F00CB5B63 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 229EA83C2D45C57D00CB5B63 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 229EA8432D45C57D00CB5B63;
+			remoteInfo = porchu;
+		};
+		229EA85F2D45C57F00CB5B63 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 229EA83C2D45C57D00CB5B63 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 229EA8432D45C57D00CB5B63;
+			remoteInfo = porchu;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		229EA8442D45C57D00CB5B63 /* porchu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = porchu.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		229EA8542D45C57F00CB5B63 /* porchuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = porchuTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		229EA85E2D45C57F00CB5B63 /* porchuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = porchuUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		229EA8462D45C57D00CB5B63 /* porchu */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = porchu;
+			sourceTree = "<group>";
+		};
+		229EA8572D45C57F00CB5B63 /* porchuTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = porchuTests;
+			sourceTree = "<group>";
+		};
+		229EA8612D45C57F00CB5B63 /* porchuUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = porchuUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		229EA8412D45C57D00CB5B63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		229EA8512D45C57F00CB5B63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		229EA85B2D45C57F00CB5B63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		229EA83B2D45C57D00CB5B63 = {
+			isa = PBXGroup;
+			children = (
+				229EA8462D45C57D00CB5B63 /* porchu */,
+				229EA8572D45C57F00CB5B63 /* porchuTests */,
+				229EA8612D45C57F00CB5B63 /* porchuUITests */,
+				229EA8452D45C57D00CB5B63 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		229EA8452D45C57D00CB5B63 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				229EA8442D45C57D00CB5B63 /* porchu.app */,
+				229EA8542D45C57F00CB5B63 /* porchuTests.xctest */,
+				229EA85E2D45C57F00CB5B63 /* porchuUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		229EA8432D45C57D00CB5B63 /* porchu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 229EA8682D45C57F00CB5B63 /* Build configuration list for PBXNativeTarget "porchu" */;
+			buildPhases = (
+				229EA8402D45C57D00CB5B63 /* Sources */,
+				229EA8412D45C57D00CB5B63 /* Frameworks */,
+				229EA8422D45C57D00CB5B63 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				229EA8462D45C57D00CB5B63 /* porchu */,
+			);
+			name = porchu;
+			packageProductDependencies = (
+			);
+			productName = porchu;
+			productReference = 229EA8442D45C57D00CB5B63 /* porchu.app */;
+			productType = "com.apple.product-type.application";
+		};
+		229EA8532D45C57F00CB5B63 /* porchuTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 229EA86B2D45C57F00CB5B63 /* Build configuration list for PBXNativeTarget "porchuTests" */;
+			buildPhases = (
+				229EA8502D45C57F00CB5B63 /* Sources */,
+				229EA8512D45C57F00CB5B63 /* Frameworks */,
+				229EA8522D45C57F00CB5B63 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				229EA8562D45C57F00CB5B63 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				229EA8572D45C57F00CB5B63 /* porchuTests */,
+			);
+			name = porchuTests;
+			packageProductDependencies = (
+			);
+			productName = porchuTests;
+			productReference = 229EA8542D45C57F00CB5B63 /* porchuTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		229EA85D2D45C57F00CB5B63 /* porchuUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 229EA86E2D45C57F00CB5B63 /* Build configuration list for PBXNativeTarget "porchuUITests" */;
+			buildPhases = (
+				229EA85A2D45C57F00CB5B63 /* Sources */,
+				229EA85B2D45C57F00CB5B63 /* Frameworks */,
+				229EA85C2D45C57F00CB5B63 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				229EA8602D45C57F00CB5B63 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				229EA8612D45C57F00CB5B63 /* porchuUITests */,
+			);
+			name = porchuUITests;
+			packageProductDependencies = (
+			);
+			productName = porchuUITests;
+			productReference = 229EA85E2D45C57F00CB5B63 /* porchuUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		229EA83C2D45C57D00CB5B63 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					229EA8432D45C57D00CB5B63 = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					229EA8532D45C57F00CB5B63 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 229EA8432D45C57D00CB5B63;
+					};
+					229EA85D2D45C57F00CB5B63 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 229EA8432D45C57D00CB5B63;
+					};
+				};
+			};
+			buildConfigurationList = 229EA83F2D45C57D00CB5B63 /* Build configuration list for PBXProject "porchu" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 229EA83B2D45C57D00CB5B63;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 229EA8452D45C57D00CB5B63 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				229EA8432D45C57D00CB5B63 /* porchu */,
+				229EA8532D45C57F00CB5B63 /* porchuTests */,
+				229EA85D2D45C57F00CB5B63 /* porchuUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		229EA8422D45C57D00CB5B63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		229EA8522D45C57F00CB5B63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		229EA85C2D45C57F00CB5B63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		229EA8402D45C57D00CB5B63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		229EA8502D45C57F00CB5B63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		229EA85A2D45C57F00CB5B63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		229EA8562D45C57F00CB5B63 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 229EA8432D45C57D00CB5B63 /* porchu */;
+			targetProxy = 229EA8552D45C57F00CB5B63 /* PBXContainerItemProxy */;
+		};
+		229EA8602D45C57F00CB5B63 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 229EA8432D45C57D00CB5B63 /* porchu */;
+			targetProxy = 229EA85F2D45C57F00CB5B63 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		229EA8662D45C57F00CB5B63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		229EA8672D45C57F00CB5B63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		229EA8692D45C57F00CB5B63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"porchu/Preview Content\"";
+				DEVELOPMENT_TEAM = 8T66PM3UR2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jimsweeney.porchu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		229EA86A2D45C57F00CB5B63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"porchu/Preview Content\"";
+				DEVELOPMENT_TEAM = 8T66PM3UR2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jimsweeney.porchu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		229EA86C2D45C57F00CB5B63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8T66PM3UR2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jimsweeney.porchuTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/porchu.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/porchu";
+			};
+			name = Debug;
+		};
+		229EA86D2D45C57F00CB5B63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8T66PM3UR2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jimsweeney.porchuTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/porchu.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/porchu";
+			};
+			name = Release;
+		};
+		229EA86F2D45C57F00CB5B63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8T66PM3UR2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jimsweeney.porchuUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = porchu;
+			};
+			name = Debug;
+		};
+		229EA8702D45C57F00CB5B63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8T66PM3UR2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jimsweeney.porchuUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = porchu;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		229EA83F2D45C57D00CB5B63 /* Build configuration list for PBXProject "porchu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				229EA8662D45C57F00CB5B63 /* Debug */,
+				229EA8672D45C57F00CB5B63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		229EA8682D45C57F00CB5B63 /* Build configuration list for PBXNativeTarget "porchu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				229EA8692D45C57F00CB5B63 /* Debug */,
+				229EA86A2D45C57F00CB5B63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		229EA86B2D45C57F00CB5B63 /* Build configuration list for PBXNativeTarget "porchuTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				229EA86C2D45C57F00CB5B63 /* Debug */,
+				229EA86D2D45C57F00CB5B63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		229EA86E2D45C57F00CB5B63 /* Build configuration list for PBXNativeTarget "porchuUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				229EA86F2D45C57F00CB5B63 /* Debug */,
+				229EA8702D45C57F00CB5B63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 229EA83C2D45C57D00CB5B63 /* Project object */;
+}
