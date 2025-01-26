@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  Model.swift
 //  porchu
 //
 //  Created by James Sweeney on 1/25/25.
@@ -7,12 +7,12 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct Model: View {
     var body: some View {
-        MainTabView()
+        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
     }
 }
 
 #Preview {
-    ContentView()
+    Model()
 }
